@@ -11,10 +11,11 @@ const SearchBox = () => {
                             <path d="m21 21-4.3-4.3"></path>
                         </svg>
                         <input class="flex h-10 w-full border bg-background px-3 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm pl-10 py-3 text-lg border-gray-200 rounded-lg"
-                        placeholder="Search for tests, packages, or health checkups" value="" />
+                        placeholder="Search for tests, packages, or health checkups" value=""  />
                     </div>
                     <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-10 bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg">Search</button>
-                </div>
+              </div>
+                      
                 <div class="text-center mb-6">
                     <h3 class="text-lg font-semibold text-gray-700">You may be looking for</h3></div>
                 <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
