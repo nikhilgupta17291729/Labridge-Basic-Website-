@@ -1,5 +1,5 @@
 
-
+import SearchBox from "../SearchBox/SearchBox";
 import BounceCards from './BounceCard/BounceCards';
 import Stats from "../Stats/Stats";
 export default function Home() {
@@ -62,7 +62,8 @@ export default function Home() {
       </section>
       ;{/* Stats */}
       <Stats />
-      
+      {/* Search Box */}
+      <SearchBox />
       {/* Services */}
       <section
         id="services"
@@ -84,6 +85,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-4 md:grid-cols-4 gap-8">
+            
             <div className="bg-blue-200 p-8 rounded-xl shadow-lg hover:shadow-lg hover:scale-105 hover:translate-x-5 transition-transform duration-300 group">
               <div className="w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-100">
                 <svg
@@ -96,7 +98,7 @@ export default function Home() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-lightbulb w-10 h-10 text-blue-600 group-hover:scale-110 transition-transform duration-300"
+                  className="lucide lucide-lightbulb w-10 h-10 text-blue-600 group-hover:scale-110 transition-transform duration-300"
                 >
                   <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
                   <path d="M9 18h6"></path>
@@ -124,7 +126,7 @@ export default function Home() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-award w-10 h-10 text-green-600 group-hover:scale-110 transition-transform duration-300"
+                  className="lucide lucide-award w-10 h-10 text-green-600 group-hover:scale-110 transition-transform duration-300"
                 >
                   <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
                   <circle cx="12" cy="8" r="6"></circle>
@@ -150,7 +152,7 @@ export default function Home() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-zap w-10 h-10 text-orange-600 group-hover:scale-110 transition-transform duration-300"
+                  className="lucide lucide-zap w-10 h-10 text-orange-600 group-hover:scale-110 transition-transform duration-300"
                 >
                   <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
                 </svg>
@@ -165,6 +167,7 @@ export default function Home() {
             </div>
 
             <div className="bg-purple-200 p-8 rounded-xl shadow-lg hover:shadow-lg hover:scale-105 hover:translate-x-5 transition-transform duration-300 group">
+
               <div className="w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-100">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -176,7 +179,7 @@ export default function Home() {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-users w-10 h-10 text-purple-600 group-hover:scale-110 transition-transform duration-300"
+                  className="lucide lucide-users w-10 h-10 text-purple-600 group-hover:scale-110 transition-transform duration-300"
                 >
                   <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                   <circle cx="9" cy="7" r="4"></circle>
