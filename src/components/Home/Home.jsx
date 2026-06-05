@@ -1,5 +1,5 @@
 
-import SearchBox from "../SearchBox/SearchBox";
+
 import BounceCards from './BounceCard/BounceCards';
 import Stats from "../Stats/Stats";
 export default function Home() {
@@ -62,8 +62,7 @@ export default function Home() {
       </section>
       ;{/* Stats */}
       <Stats />
-      {/* Search Box */}
-      <SearchBox />
+      
       {/* Services */}
       <section
         id="services"
